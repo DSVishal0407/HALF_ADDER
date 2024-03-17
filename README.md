@@ -7,3 +7,18 @@
 ![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/154305926/020e1531-1c11-42e5-9f27-f09ba459984d)
 # Carry = A AND B
 ![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/154305926/988ae131-0822-4d23-941b-eaafad349a72)
+# PROGRAM
+```
+module Half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor g1(sum,a,b);
+and g2(carry,a,b);
+endmodule
+Output
+```
+# OUTPUT
+![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/163637297/e21b85c4-43a9-4168-91d3-013d8dbe0255)
+# RESULT:
+Hence Half Adder Verified.
+
